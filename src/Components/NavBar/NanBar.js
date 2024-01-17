@@ -19,7 +19,7 @@ export const NavBar = () => {
     divLogo.className = "logoImg"
     divUser.className = "userImg"
     logo.src = "https://cdn-icons-png.flaticon.com/512/10092/10092385.png"
-    user.src = "../../../public/assets/user.png"
+    user.src = "https://cdn-icons-png.flaticon.com/256/1144/1144760.png"
     liInicio.textContent = "Inicio";
     liExplorar.textContent = "Explorar";
     liCrear.textContent = "Crear";

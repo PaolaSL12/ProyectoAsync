@@ -16,6 +16,7 @@
 
  li {
     font-weight: 500;
+    cursor: pointer;
  }
 
  .logoImg, .userImg {
@@ -35,4 +36,30 @@
     padding: 0 15px;
     background-color: rgb(218, 218, 218);
     border: none;
+ }
+
+ @media screen and (max-width: 750px) {
+   ul {
+      display: none;
+   }
+   input {
+      width: 80%;
+      margin: 0 20px;
+   }
+ }
+
+
+ @media screen and (min-width:751px) and (max-width: 1200px) {
+
+ }
+
+ @media screen and (min-width: 1201px) {
+   ul {
+      width: 25%;
+      max-width: 300px;
+   }
+
+   input {
+      width: 65%;
+   }
  }

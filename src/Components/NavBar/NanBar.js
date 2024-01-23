@@ -28,7 +28,7 @@ export const NavBar = () => {
 
     input.addEventListener("keypress", (e) => {
         if (e.key === "Enter") {
-            searchImg(input)
+            searchImg(input.value)
         }
     })
 

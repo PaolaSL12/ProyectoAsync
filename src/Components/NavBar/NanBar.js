@@ -33,7 +33,7 @@ export const NavBar = () => {
     })
 
     liInicio.addEventListener("click", (e) => {
-        searchImg("random")
+        searchImg("mountain")
     })
 
     liExplorar.addEventListener("click", (e) => {

@@ -4,9 +4,13 @@
 
 
 import { selectContainer } from "./src/Components/Container/Container";
-import { NavBar } from "./src/Components/NavBar/NanBar";
+import { NavBar} from "./src/Components/NavBar/NanBar";
 import { searchImg } from "./src/Components/SearchImg/SearchImg";
 
-NavBar()
-selectContainer()
-searchImg("random")
+
+const randomWords2 = ["sunset", "happy", "flowers", "mountain"];
+
+
+NavBar();
+selectContainer();
+searchImg(randomWords2[(Math.floor(Math.random() * 4))]);
